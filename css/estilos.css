@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* variables */
+:root{
+  --green-color:#7ACC2D;
+  --white-color:white;
+  --gris-color:#313337;
+  /* espaciado */
+  --space:10px;
+  /* tipografia */
+  --normal:12px;
+/* box shadow */
+--box: 0 0 2px #6f5757;
+--padding:10px;
+}
+/* variables */
+html,body{
+  paddign:0px;
+  margin:0px;
+    font-size: var(--normal);
+    font-family:'Open Sans', sans-serif;;
+}
+nav{
+  display: flex;
+  background-color: var(--green-color);
+  padding:var(--space);
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+nav li{
+  padding-left:20px;
+  list-style-type: none;
+}
+nav li a{
+  color: var(--gris-color);
+  text-decoration:none;
+}
+hr{
+  opacity: .2;
+}
+nav li a:hover{
+  color: var(--white-color);
+}
+footer{
+  background-color:#313337;
+  display:flex;
+  justify-content: space-between;
+  color:#FFFFFF;
+  font-size: var(--normal);
+  align-items: center;
+  padding: var(--space);
+  /* padding:10px; */
+}
+p, label{
+  font-size:var(--normal);
+}
+label{
+  padding-bottom:var(--space);
+}
+form{
+  padding:10px;
+}
+.main_section{
+  padding: 15%;
+  text-align:center;
+}
+.products{
+  background-image: url("../images/curve.png");
+  height: 95px;
+  background-size: cover;
+  background-position:center top;
+  padding:15%;
+  display:flex;
+}
+.product .content{
+  background-color:var(--white-color);
+  padding:15px;
+  box-shadow: var(--box);
+}
+.product{
+  padding:var(--space);
+  margin-top:-226px;
+}
+.main_button{
+  background-color: var(--green-color);
+  width:100%;
+  padding:var(--space);
+  font-size:var(--normal);
+  color:var(--white-color);
+  border:0;
+  cursor: pointer;
+  border-radius:2px;
+}
+.main_button:hover{
+  background-color:#5e9e22;
+}
+.content{
+  padding: 20px;
+  background: var(--white-color);
+  border-radius: 3px;
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+.img_content{
+  text-align:center;
+}
+.caracteristicas{
+  display:flex;
+  padding:10%;
+}
+.caract{
+  padding:20px;
+  text-align:center;
+}
+.caract img{
+  /* propiedad para hacer mas pequenio una imagen */
+  max-height:100px;
+}
+.text_beneficio{
+  text-align: justify;
+}
+
+.menciones{
+  display:flex;
+  padding: 5%;
+  /* justify-content:space-between; */
+  /* padding: 10px; */
+}
+.mencion{
+  padding:10px;
+}
+.mencion img{
+  width: 100%;
+}
+h2.titulo_mencion{
+  text-align:center;
+}
+.mencion {
+  padding:var(--space);
+}
+
+.content_mention{
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+.mention .text{
+  padding: var(--space);
+}
+/* .img_mencion1{
+  text-align:center;
+} */
+/* ------------------------------------VENTAS */
+.modulo_pago{
+  background-color:var(--white);
+  box-shadow:var(--box);
+  padding:var(--padding);
+}
+.modulo_pago_images{
+   /* margin:10px; */
+   text-align:center;
+}
+.modulo_pago input{
+  margin-top:10px;
+  width:100%;
+  height:35px;
+  border:1px solid black;
+  border-radius:3px;
+  box-sizing: border-box;
+}
+.modulo_pago button{
+  width:100%;
+  height:35px;
+  border:1px solid #7ACC2D;
+  border-radius:5px;
+  background:#7ACC2D;
+  color:white;
+  box-shadow:var(--box);
+  font-size:18px;
+}
+.option a{
+
+  text-decoration:none;
+  color:white;
+}

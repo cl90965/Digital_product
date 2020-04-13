@@ -1,0 +1,21 @@
+body{
+  background-color:var(--gris-color);
+  color:white;
+  height: 100vh;
+  display:flex;
+  text-align:center;
+  justify-content:center;
+  align-items:center;
+}
+.container_paypal{
+
+  /* padding: 20%; */
+  /* text-align:center;
+  justify-content:center; */
+}
+.container_paypal a{
+  text-decoration:none;
+  color:white;
+
+
+}
